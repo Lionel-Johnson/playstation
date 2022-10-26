@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.black {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+}
+nav {
+    width: 97.3%;
+    background-color: white;
+    position: sticky;
+    height: 90px;
+    padding: 0 1.25rem;
+    top: 0;
+}
+
+.search {
+    position: relative;
+    margin-left: 1450px;
+    top: 45px;
+    position: fixed;
+}
+.menu-container {
+    display: flex;
+    align-items: center;
+  }
+  #menu ul
+  {
+      margin: 0;
+      padding: 0;
+  }
+   
+  #menu li
+  {
+      list-style-type: none;
+      float: left;
+      position: relative;
+  }
+   
+  #menu ul li a
+  {
+      color:#000;
+      text-decoration: none;
+      width:150px;
+      height:30px;
+      display: block;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+   
+  #menu ul ul
+  {
+      position: absolute;
+      top: 30px;
+      visibility: hidden;
+      display: flex;
+      height: 20vh;
+      justify-content: center;
+      top: 90px;
+   
+  }
+   
+  #menu ul li:hover ul{
+      visibility: visible;
+    }
+  
+  .menu-list {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+  }
+  
+  .menu-list a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .squaree{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-list a:hover {
+    color: blue;
+  }
+  
+  .menu-container li {
+    list-style: none;
+  }
+  
+
+button {
+    float: right;
+    margin-bottom: 135px;
+    border-radius: 50px;
+    margin-right: 90px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    background-color: #363636;
+    margin-top: -28px;
+    border-style: none;
+}
+
+
+.conteneur1 {
+    overflow: hidden;
+    width: 100%;
+    top: 99px;
+
+}
+
+.d1 {
+    width: 900%;
+    height: 900px;
+    background-color: #EDEDED;
+    animation: fondu 15s ease-in-out infinite both;
+    background-repeat: no-repeat;
+}
+
+.d1:hover {
+    animation-play-state: paused;
+}
+
+@keyframes fondu {
+    0% {
+        background-image: url("./images/days-of-play-listing-thumb-01-en-20may21\ [MConverter.eu].jpg");
+    }
+
+    33.33% {
+        background-image: url("./images/gran-turismo-7-keyart-01-en-23oct20\ [MConverter.eu].jpg");
+    }
+
+    66.67% {
+        background-image: url("./images/horizon-forbidden-west-keyart-01-12may21$en\ [MConverter.eu].jpg");
+    }
+
+    100% {
+        background-image: url("./images/genshin-impact-2-7-update-keyart-01-ps4-24may22$en\ [MConverter.eu].jpg");
+    }
+}
+
+.bouton {
+    justify-content: space-between;
+    margin-right: 10%;
+    display: flex;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.carousel .images {
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-color: #0070D1 solid 3px;
+
+}
+
+.carousel .images:hover {
+    margin-top: 20px;
+    opacity: 1;
+    border-color: #2d64e6 solid 3px;
+}
+
+.carousel .images img {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.play .play5 {
+    margin-top: 10%;
+    margin-right: 90px;
+}
+
+.play .play5 p {
+    margin-top: 5%;
+}
+
+.play .play5 button {
+    background-color: #2d64e6;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.play .play5 {
+    margin-top: 10%;
+    margin-right: 90px;
+}
+
+.play .play5 p {
+    margin-top: 5%;
+}
+
+.play .play5 button {
+    background-color: #2d64e6;
+    margin-top: 5%;
+    width: 150px;
+    height: 30px;
+
+}
+
+.carousel1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.carousel1 .images:hover {
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+    border-color: #0070D1;
+    border-bottom-color: #0070D1;
+}
+
+.carousel1 .images img {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.contenant {
+    position: relative;
+    text-align: left;
+    color: white;
+    height: 620px;
+}
+
+.texte_centrer {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+}
+
+.texte_centrer p {
+    top: 10%;
+    margin-left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.contenant button {
+    background-color: white;
+    margin-bottom: 20%;
+    width: 150px;
+    height: 30px;
+    float: left;
+    position: absolute;
+    top: 17em;
+    right: 65em;
+    z-index: 5;
+    color: black;
+}
+
+.imgB1 {
+    border-radius: 10px;
+    justify-content: space-around;
+    cursor: pointer;
+    opacity: 0.5;
+    border-color: #0070D1 solid 3px;
+
+}
+
+.imgB1:hover {
+    transform: translateY(-20px);
+    opacity: 1;
+    border-color: #2d64e6 3px;
+    box-shadow: 0px 1px 2px #2d64e6;
+}
+
+.imgB2 {
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-color: #0070D1 solid 3px;
+}
+
+.imgB2:hover {
+    transform: translateY(-20px);
+    opacity: 1;
+    border-color: #2d64e6 solid 3px;
+    box-shadow: 0px 1px 2px #2d64e6;
+}
+
+.imgB3 {
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-color: #0070D1 solid 3px;
+}
+
+.imgB3:hover {
+    transform: translateY(-20px);
+    opacity: 1;
+    border-color: #2d64e6 solid 3px;
+    box-shadow: 0px 1px 2px #2d64e6;
+}
+
+.imgA1 {
+    position: relative;
+    z-index: 1;
+    width: 15em;
+}
+
+.imgB1 {
+    position: absolute;
+    top: 23em;
+    right: 69em;
+    z-index: 5;
+}
+
+.imgB2 {
+    position: absolute;
+    top: 23em;
+    right: 55em;
+    z-index: 5;
+}
+
+.imgB3 {
+    position: absolute;
+    top: 23em;
+    right: 41em;
+    z-index: 5;
+}
+
+.elden {
+    background-image: url(./images/2elden-ring-hero-banner-desktop-01-en-24jan22.webp);
+    background-size: cover;
+    height: 600px;
+    width: 1520px;
+    background-repeat: no-repeat;
+}
+
+.nvt {
+    background-color: black;
+    height: 650px;
+    width: 1520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 55px;
+}
+
+.nvt p {
+    color: white;
+    font-size: 20px;
+}
+
+.nvt .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dec p {
+    background-color: white;
+}
+
+.dec .items {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dec h4 {
+    margin-top: 50px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.dec p {
+    display: flex;
+    justify-content: center;
+}
+
+.dec img {
+    margin-top: 50px;
+    margin: 15px;
+}
+
+.texte {
+    font-weight: lighter;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.Mbappé {
+    background-image: url(./images/ps-plus-this-month-on-plus-background-desktop-en-02-25mar21.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.Mbappé img {
+    margin-left: 130px;
+}
+
+.MBP img {
+    position: absolute;
+    height: 500px;
+    top: 0;
+    right: 50px;
+}
+
+.RS {
+    margin-top: -10px;
+    margin-left: 500px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.Réseau {
+    margin-left: 450px;
+}
+
+.footer {
+    background-color: #00439c;
+    padding: 60px 30px;
+}
+
+.footer_container {
+    display: flex;
+    color: white;
+    max-width: 1900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.globe_logo {
+    height: 30px;
+}
+
+.footer_item1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.footer_lists {
+    display: flex;
+}
+
+.countryRegions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer_logo {
+    height: 100px;
+    align-self: flex-start;
+}
+
+.footer_doré {
+    height: 60px;
+    margin-left: 95px;
+    align-self: flex-start;
+}
+
+.esrbLogo {
+    height: 60px;
+}
+
+.esrb_section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_lists li {
+    list-style: none;
+    cursor: pointer;
+    margin: 20px 50px;
+}
+
+.footerItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
